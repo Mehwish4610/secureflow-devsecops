@@ -44,7 +44,7 @@ jobs:
 
     - name: Install Semgrep
       run: |
-        curl -sSL https://semgrep.dev/install.sh | sh
+        curl -sSL https://semgrep.dev/install.sh | bash
 
     - name: Run Semgrep Scan
       run: ./semgrep scan app/

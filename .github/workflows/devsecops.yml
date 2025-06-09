@@ -53,9 +53,9 @@ jobs:
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SLACK_MESSAGE: |
-        ❌ *CI Failed* for ${{ github.repository }}
-        ✳️ Commit: ${{ github.sha }}
-        🔗 <https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Logs>
+          ❌ *CI Failed* for ${{ github.repository }}
+          ✳️ Commit: ${{ github.sha }}
+          🔗 <https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Logs>
         SLACK_COLOR: '#FF0000'
 
     - name: Send Slack Alert on Success
@@ -64,7 +64,7 @@ jobs:
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SLACK_MESSAGE: |
-        ✅ *CI Succeeded* for ${{ github.repository }}
-        ✳️ Commit: ${{ github.sha }}
-        🔗 <https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Logs>
+          ✅ *CI Succeeded* for ${{ github.repository }}
+          ✳️ Commit: ${{ github.sha }}
+          🔗 <https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Logs>
         SLACK_COLOR: '#36a64f'

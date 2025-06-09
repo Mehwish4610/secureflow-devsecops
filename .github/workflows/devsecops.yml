@@ -42,9 +42,8 @@ jobs:
         exit-code: '0'
         severity: 'CRITICAL,HIGH'
 
-    - name: Install Semgrep
-      run: |
-        curl -sSL https://semgrep.dev/install.sh | bash
-
     - name: Run Semgrep Scan
-      run: ./semgrep scan app/
+      uses: returntocorp/semgrep-action@v1
+      with:
+        config: "auto"
+

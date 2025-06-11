@@ -96,7 +96,6 @@ cd secureflow-devsecops
 docker compose up --build
 Access Services:
 ```
----
 
 Service	URL
 
@@ -108,12 +107,12 @@ Service	URL
 
 🔵 Grafana UI	http://localhost:3000
 
----
 Grafana Login:
 
 Username: admin
 
 Password: admin
+
 
 
 ### ✅ Grafana Initial Setup
@@ -128,6 +127,7 @@ Password: admin
 - Select Prometheus data source (http://prometheus:9090)
 
 - Explore beautiful real-time monitoring 📊
+
 ## 🧪 Full CI/CD Pipeline (GitHub Actions)
 
 | Stage            | Description                         |

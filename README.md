@@ -115,7 +115,9 @@ Username: admin
 
 Password: admin
 
+
 ### ✅ Grafana Initial Setup
+---
 
 - Import FastAPI Dashboard:
 
@@ -166,6 +168,11 @@ Created & Designed by: - [@Mehwish4610](https://github.com/Mehwish4610)
 
 ## Screenshots
 
+Flask App
+
+![App Screenshot](https://github.com/Mehwish4610/secureflow-devsecops/blob/main/Screenshot%202025-06-11%20214109.png)
+
+---
 Prometheus Metrics
 
 ![App Screenshot](https://github.com/Mehwish4610/secureflow-devsecops/blob/main/Screenshot%202025-06-11%20214124.png)
